@@ -18,7 +18,7 @@ struct DatePickerDemo: View {
     var body: some View {
         VStack(spacing: 20) {
             // Compact (default)
-            DatePicker("Compact", selection: $selectedDate)
+           // DatePicker("Compact", selection: $selectedDate)
 
             // Graphical calendar style
             DatePicker(
@@ -47,3 +47,5 @@ struct DatePickerDemo: View {
 #Preview {
     DatePickerDemo()
 }
+
+
